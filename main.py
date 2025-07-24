@@ -22,6 +22,7 @@ if __name__ == "__main__":
             print('Calculadora')
             print('----------------------------------\n')
             num1: int = input("Primeiro número: ")
+            num2: int = input("Segundo número: ")
 
         except ValueError:
             print('Dados inválidos! -> Tente novamente!')
